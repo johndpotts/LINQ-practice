@@ -44,7 +44,7 @@ namespace LINQ_practice
 
             var toys =
                 from dog in d
-                where dog.Key == "Buster"
+                where dog.Key == "Allie"
                 select dog.Value;
 
             foreach (var item in toys)
